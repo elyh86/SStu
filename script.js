@@ -222,40 +222,6 @@ workItemsList.forEach(item => {
     });
 });
 
-// Form handling
-const contactForm = document.querySelector('.contact-form-dramatic');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        const btn = contactForm.querySelector('.submit-dramatic');
-        const submitText = btn.querySelector('.submit-text');
-        const originalText = submitText.textContent;
-        
-        submitText.textContent = 'SENDING...';
-        btn.disabled = true;
-        
-        setTimeout(() => {
-            submitText.textContent = 'SENT!';
-            btn.style.background = '#0a0a0a';
-            btn.style.color = '#ff6b35';
-            contactForm.reset();
-            
-            setTimeout(() => {
-                submitText.textContent = originalText;
-                btn.style.background = '';
-                btn.style.color = '';
-                btn.disabled = false;
-            }, 2000);
-        }, 1500);
-    });
-}
-
-// Work section project visual hover (removed - no longer needed)
-
-// Magnetic effect for project cards (removed - no longer needed)
-
 // Custom cursor
 const body = document.body;
 
@@ -425,4 +391,4 @@ heroLines.forEach(line => {
     });
 });
 
-console.log('Syntax Studio — Vertical Scroll Portfolio 🚀');
+console.log('Syntax Studio © 2026 - Vertical Scroll Portfolio');
