@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntax Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>WEB DEVELOPMENT</span>
+            <span>•</span>
+            <span>CREATIVE DIRECTION</span>
+            <span>•</span>
+            <span>DIGITAL EXPERIENCES</span>
+            <span>•</span>
+            <span>SYNTAX STUDIO</span>
+            <span>•</span>
+        </div>
+    </div>
+
+    <nav class="nav nav-dark">
+        <div class="nav-left">
+            <span class="nav-counter">01</span>
+            <span class="nav-title">SYNTAX</span>
+        </div>
+        <div class="nav-right">
+            <a href="#home" class="nav-item active">HOME</a>
+            <a href="#work" class="nav-item">WORK</a>
+            <a href="#testimonials" class="nav-item">TESTIMONIALS</a>
+            <a href="#skills" class="nav-item">SKILLS</a>
+            <a href="#about" class="nav-item">ABOUT</a>
+            <a href="#contact" class="nav-item">CONTACT</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-line" data-text="DIGITAL">DIGITAL</span>
+                    <span class="hero-line" data-text="CRAFTSMAN">CRAFTSMAN</span>
+                </h1>
+                <p class="hero-subtitle">Full-stack developer creating exceptional web experiences</p>
+                <div class="hero-details">
+                    <div class="detail-item">
+                        <span class="detail-label">BASED IN</span>
+                        <span class="detail-value">ROTTERDAM</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">AVAILABLE</span>
+                        <span class="detail-value">FOR PROJECTS</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#work" class="cta-link">View Work →</a>
+                    <a href="#contact" class="cta-link cta-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-text">
+                    <span class="float-text" data-text="REACT">REACT</span>
+                    <span class="float-text" data-text="NODE">NODE</span>
+                    <span class="float-text" data-text="PYTHON">PYTHON</span>
+                    <span class="float-text" data-text="VUE">VUE</span>
+                    <span class="float-text" data-text="TYPESCRIPT">TYPESCRIPT</span>
+                    <span class="float-text" data-text="NEXT">NEXT</span>
+                </div>
+                <div class="hero-circle"></div>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <div class="work-container">
+                <div class="work-sidebar reveal">
+                    <div class="work-filter-label">FILTER</div>
+                    <div class="work-filters">
+                        <button class="filter-btn active">All</button>
+                        <button class="filter-btn">Web</button>
+                        <button class="filter-btn">App</button>
+                        <button class="filter-btn">Brand</button>
+                    </div>
+                </div>
+                
+                <div class="work-list">
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">01</span>
+                            <h3 class="work-name">E-Commerce Platform</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">Web Development</span>
+                                <span class="work-cat">React</span>
+                                <span class="work-cat">Node.js</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2024</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">02</span>
+                            <h3 class="work-name">SaaS Dashboard</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">Web Development</span>
+                                <span class="work-cat">Vue.js</span>
+                                <span class="work-cat">Firebase</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2024</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">03</span>
+                            <h3 class="work-name">Corporate Website</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">Web Development</span>
+                                <span class="work-cat">Next.js</span>
+                                <span class="work-cat">Tailwind</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2024</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">04</span>
+                            <h3 class="work-name">Mobile App Backend</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">App Development</span>
+                                <span class="work-cat">Python</span>
+                                <span class="work-cat">Django</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2023</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">05</span>
+                            <h3 class="work-name">Real Estate Platform</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">Web Development</span>
+                                <span class="work-cat">Laravel</span>
+                                <span class="work-cat">MySQL</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2023</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">06</span>
+                            <h3 class="work-name">AI Content Tool</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">AI/ML</span>
+                                <span class="work-cat">Python</span>
+                                <span class="work-cat">TensorFlow</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2023</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">07</span>
+                            <h3 class="work-name">Booking System</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">Web Development</span>
+                                <span class="work-cat">PHP</span>
+                                <span class="work-cat">Laravel</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2023</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">08</span>
+                            <h3 class="work-name">Social Network</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">App Development</span>
+                                <span class="work-cat">React Native</span>
+                                <span class="work-cat">Node.js</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2022</span>
+                    </div>
+                    
+                    <div class="work-item editorial reveal">
+                        <div class="work-project">
+                            <span class="work-index">09</span>
+                            <h3 class="work-name">Dashboard Analytics</h3>
+                            <div class="work-categories">
+                                <span class="work-cat">Web Development</span>
+                                <span class="work-cat">D3.js</span>
+                                <span class="work-cat">WebSocket</span>
+                            </div>
+                        </div>
+                        <span class="work-year">2022</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section testimonials">
+            <div class="testimonials-container">
+                <div class="testimonials-header">
+                    <span class="testimonials-label">CLIENT FEEDBACK</span>
+                    <h2 class="testimonials-title">WHAT THEY SAY</h2>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">Exceptional work quality and attention to detail. The final product exceeded all our expectations.</p>
+                        <div class="testimonial-author">
+                            <span class="author-name">Sarah Johnson</span>
+                            <span class="author-role">CEO, TechStart</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">Professional, reliable, and incredibly talented. A true craftsman of web development.</p>
+                        <div class="testimonial-author">
+                            <span class="author-name">Michael Chen</span>
+                            <span class="author-role">Founder, Innovate Labs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">Transformed our vision into reality. The process was smooth and the results speak for themselves.</p>
+                        <div class="testimonial-author">
+                            <span class="author-name">Emma Williams</span>
+                            <span class="author-role">Director, Creative Co</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="skills-unique reveal">
+                <div class="skills-hero">
+                    <span class="skills-pre">Technical Expertise</span>
+                    <h2 class="skills-main">MASTERY IN MOTION</h2>
+                </div>
+                
+                <div class="skills-matrix">
+                    <div class="skill-column">
+                        <div class="skill-column-header">
+                            <span class="column-letter">A</span>
+                            <span class="column-title">Architecture</span>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">System Design</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">API Development</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">Database Design</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-column">
+                        <div class="skill-column-header">
+                            <span class="column-letter">B</span>
+                            <span class="column-title">Build</span>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">Frontend</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">Backend</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">DevOps</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-column">
+                        <div class="skill-column-header">
+                            <span class="column-letter">C</span>
+                            <span class="column-title">Craft</span>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">UI/UX Design</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">Performance</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-item">
+                                <span class="skill-name">Animation</span>
+                                <div class="skill-dots">
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                    <span class="dot filled"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-tools">
+                    <div class="tools-intro">
+                        <span class="tools-label">The Arsenal</span>
+                        <p class="tools-desc">Technologies I use to bring ideas to life</p>
+                    </div>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <span class="tool-icon">⚛</span>
+                            <span class="tool-name">React</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">▲</span>
+                            <span class="tool-name">Next.js</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">●</span>
+                            <span class="tool-name">Node.js</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">◈</span>
+                            <span class="tool-name">Python</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">🗄</span>
+                            <span class="tool-name">MySQL</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">☁</span>
+                            <span class="tool-name">AWS</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">🐳</span>
+                            <span class="tool-name">Docker</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">⚡</span>
+                            <span class="tool-name">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="about-unique reveal">
+                <div class="about-visual-side">
+                    <div class="about-image-frame">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop" alt="About" class="about-img">
+                        <div class="about-image-overlay">
+                            <span class="overlay-number">04</span>
+                        </div>
+                    </div>
+                    <div class="about-stats-vertical">
+                        <div class="stat-vertical-item">
+                            <span class="stat-value">50+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-vertical-item">
+                            <span class="stat-value">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-vertical-item">
+                            <span class="stat-value">15+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-content-side">
+                    <div class="about-intro">
+                        <span class="about-tagline">Digital Craftsman</span>
+                        <h2 class="about-main-title">I BUILD DIGITAL EXPERIENCES THAT MATTER</h2>
+                    </div>
+                    
+                    <div class="about-narrative">
+                        <p class="narrative-text">Every project is an opportunity to create something exceptional. I don't just write code – I architect solutions, craft experiences, and build products that users actually love.</p>
+                        <p class="narrative-text">From the first sketch to the final deployment, I'm involved in every step. This hands-on approach ensures quality, consistency, and results that exceed expectations.</p>
+                    </div>
+                    
+                    <div class="about-philosophy">
+                        <h3 class="philosophy-title">My Philosophy</h3>
+                        <div class="philosophy-grid">
+                            <div class="philosophy-item">
+                                <span class="philosophy-number">01</span>
+                                <span class="philosophy-text">Quality over quantity</span>
+                            </div>
+                            <div class="philosophy-item">
+                                <span class="philosophy-number">02</span>
+                                <span class="philosophy-text">Simplicity over complexity</span>
+                            </div>
+                            <div class="philosophy-item">
+                                <span class="philosophy-number">03</span>
+                                <span class="philosophy-text">Performance over features</span>
+                            </div>
+                            <div class="philosophy-item">
+                                <span class="philosophy-number">04</span>
+                                <span class="philosophy-text">People over processes</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="#contact" class="about-cta-btn">Let's Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="contact-wrapper">
+                <div class="contact-visual reveal-left">
+                    <div class="contact-large-text">
+                        <span class="contact-big-letter">L</span>
+                        <span class="contact-big-letter">E</span>
+                        <span class="contact-big-letter">T</span>
+                        <span class="contact-big-letter">'</span>
+                        <span class="contact-big-letter">S</span>
+                    </div>
+                    <div class="contact-sub-text">
+                        <span>WORK</span>
+                        <span>TOGETHER</span>
+                    </div>
+                </div>
+                
+                <div class="contact-main reveal-right">
+                    <div class="contact-header">
+                        <span class="contact-number">06</span>
+                        <h2 class="contact-heading">GET IN TOUCH</h2>
+                    </div>
+                    
+                    <div class="contact-details-large">
+                        <a href="mailto:shzxrp@hotmail.com" class="email-large">shzxrp@hotmail.com</a>
+                        <p class="contact-desc">Have a project in mind? Let's create something exceptional together.</p>
+                    </div>
+                    
+                    <div class="contact-social-large">
+                        <a href="https://github.com/elyh86" target="_blank" class="social-card">
+                            <span class="social-icon">GitHub</span>
+                            <span class="social-handle">@elyh86</span>
+                        </a>
+                        <a href="#" class="social-card">
+                            <span class="social-icon">LinkedIn</span>
+                            <span class="social-handle">Connect</span>
+                        </a>
+                        <a href="#" class="social-card">
+                            <span class="social-icon">Twitter</span>
+                            <span class="social-handle">Follow</span>
+                        </a>
+                    </div>
+                    
+                    <form class="contact-form-dramatic">
+                        <div class="form-group-dramatic">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group-dramatic">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group-dramatic">
+                            <textarea placeholder="Tell me about your project" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-dramatic">
+                            <span class="submit-text">Send Message</span>
+                            <span class="submit-arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
